@@ -12,7 +12,7 @@ const handleDecrement = () => {
   return (
     <div>
       <h1>Counter App</h1>
-      <h2>count: {count}</h2>
+      <h2>Count: {count}</h2>
       <button onClick={handleIncrement}>Increment</button>
       <button onClick={handleDecrement}>Decrement</button>
     </div>
